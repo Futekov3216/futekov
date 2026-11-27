@@ -15,10 +15,18 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="description" content="Futekov Studios is an independent software studio building apps, games and software products, including Astervolt and Earth Never Falls." />
-    <script type="module" crossorigin src="/assets/index-DzRXU60-.js"></script>
+    <style>html.is-loading,html.is-loading body{overflow:hidden}#loader{z-index:9999;background:radial-gradient(at 50% 45%,#0f1a2a 0%,#05070b 70%);place-items:center;transition:opacity .6s,visibility .6s;display:grid;position:fixed;inset:0}#loader.done{opacity:0;visibility:hidden;pointer-events:none}#loader .ring{border:2px solid #a0bee124;border-top-color:#6cc4ff;border-radius:50%;width:64px;height:64px;animation:.9s linear infinite loader-spin;box-shadow:0 0 24px #6cc4ff26}#loader .label{letter-spacing:.4em;text-transform:uppercase;color:#8b98ab;text-align:center;margin-top:22px;font:600 11px Segoe UI,system-ui,sans-serif}#loader .inner{flex-direction:column;align-items:center;display:flex}@keyframes loader-spin{to{transform:rotate(360deg)}}@media (prefers-reduced-motion:reduce){#loader .ring{animation-duration:2.4s}}</style>
+    <script type="module" crossorigin src="/assets/index-DEIUCcnB.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CtMxhD6s.css">
   </head>
   <body>
-    <div id="root"></div>
+    <script>document.documentElement.classList.add('is-loading')</script>
+    <div id="loader" role="status" aria-live="polite">
+      <div class="inner">
+        <div class="ring" aria-hidden="true"></div>
+        <p class="label">Loading</p>
+      </div>
+    </div>
+    <div id="root"></div>
   </body>
 </html>
